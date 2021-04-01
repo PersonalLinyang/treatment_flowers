@@ -1,0 +1,86 @@
+.register-form-area {
+	margin: 0 auto;
+	clear: both;
+}
+
+@media screen and (min-width: 1025px) {
+	.register-form-area {
+		width: 600px;
+	}
+
+	.form-title {
+		width: 160px;
+	}
+
+	.form-input {
+		width: 440px;
+	}
+
+	.button-controller {
+		padding: 15px 75px 30px;
+	}
+
+	.btn-register {
+		width: 200px;
+		padding: 10px 0;
+		float: left;
+	}
+
+	.btn-login {
+		width: 200px;
+		margin-left: 50px;
+		padding: 10px 0;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+	.register-form-area {
+		width: 100%;
+	}
+
+	.form-title {
+		width: 35%;
+	}
+
+	.form-input {
+		width: 65%;
+	}
+
+	.button-controller {
+		padding: 15px 15% 30px;
+	}
+
+	.btn-register {
+		width: 45%;
+		padding: 10px 0;
+		float: left;
+	}
+
+	.btn-login {
+		width: 45%;
+		margin-left: 10%;
+		padding: 10px 0;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.register-form-area {
+		width: 100%;
+	}
+
+	.button-controller {
+		padding: 15px 0 30px;
+	}
+
+	.btn-register {
+		width: 60%;
+		margin: 15px auto;
+	}
+
+	.btn-login {
+		width: 60%;
+		margin: 15px auto;
+	}
+}

@@ -1,0 +1,158 @@
+.time_blog {
+	padding: 15px;
+	color: #847772;
+}
+
+.blog-image {
+	width: 100%;
+	text-align: center;
+}
+.blog-image img {
+	max-width: 100%;
+}
+
+.blog-content {
+	padding: 15px;
+}
+
+.button-controller {
+	padding: 15px;
+}
+
+.button-btn {
+	text-align: center;
+}
+.button-btn a {
+	color: #000000;
+}
+
+@media screen and (min-width: 1025px) {
+	.time_blog {
+		font-size: 0.14rem;
+	}
+
+	.button-btn {
+		width: 260px;
+		padding: 5px 20px;
+		margin: 0 80px;
+	}
+
+	.blog-link-prev {
+		position: relative;
+		float: left;
+	}
+	.blog-link-prev:before {
+		content: "";
+		position: absolute;
+		border-left: 2px solid #847772;
+		border-bottom: 2px solid #847772;
+		transform: rotate(45deg);
+		width: 10px;
+		height: 10px;
+		top: 12px;
+		left: 30px;
+	}
+	.blog-link-prev:after {
+		content: "";
+		position: absolute;
+		border-top: 2px solid #847772;
+		width: 15px;
+		top: 17px;
+		left: 30px;
+	}
+
+	.blog-link-next {
+		position: relative;
+		float: right;
+	}
+	.blog-link-next:before {
+		content: "";
+		position: absolute;
+		border-left: 2px solid #847772;
+		border-bottom: 2px solid #847772;
+		transform: rotate(-135deg);
+		width: 10px;
+		height: 10px;
+		top: 12px;
+		right: 30px;
+	}
+	.blog-link-next:after {
+		content: "";
+		position: absolute;
+		border-top: 2px solid #847772;
+		width: 15px;
+		top: 17px;
+		right: 30px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.time_blog {
+		font-size: 0.28rem;
+	}
+
+	.button-btn {
+		font-size: 0.3rem;
+		padding: 0.1rem;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+	.button-btn {
+		width: 4.3rem;
+	}
+
+	.blog-link-prev {
+		position: relative;
+		float: left;
+	}
+	.blog-link-prev:before {
+		content: "";
+		position: absolute;
+		border-left: 2px solid #847772;
+		border-bottom: 2px solid #847772;
+		transform: rotate(45deg);
+		width: 10px;
+		height: 10px;
+		top: 12px;
+		left: 30px;
+	}
+	.blog-link-prev:after {
+		content: "";
+		position: absolute;
+		border-top: 2px solid #847772;
+		width: 15px;
+		top: 17px;
+		left: 30px;
+	}
+
+	.blog-link-next {
+		position: relative;
+		float: right;
+	}
+	.blog-link-next:before {
+		content: "";
+		position: absolute;
+		border-left: 2px solid #847772;
+		border-bottom: 2px solid #847772;
+		transform: rotate(-135deg);
+		width: 10px;
+		height: 10px;
+		top: 12px;
+		right: 30px;
+	}
+	.blog-link-next:after {
+		content: "";
+		position: absolute;
+		border-top: 2px solid #847772;
+		width: 15px;
+		top: 17px;
+		right: 30px;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.button-btn {
+		width: 90%;
+	}
+}
